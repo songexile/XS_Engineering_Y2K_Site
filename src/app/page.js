@@ -6,7 +6,7 @@ export default function Home() {
       className="flex min-h-screen flex-col items-center justify-between "
       style={{ backgroundImage: "url('/background-img.jpg')" }}
     >
-      <div className="mx-64 w-5/6 shadow-xl">
+      <div className="mx-64 w-5/6 lg:w-4/6 xl:w-3/6 shadow-xl">
         <div
           style={{ backgroundImage: "url('/header-top.jpg')" }}
           className="bg-cover bg-center h-4 w-full "
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="w-1/3 h-full "></div>
         </div>
-        <div className="h-2 w-full bg-gradient-to-t from-black to-gray-500 border border-white"></div>
+        <div className="h-3 w-full bg-gradient-to-t from-black to-gray-500 border border-b-1 border-t-0 border-white"></div>
       </div>
     </main>
   );
