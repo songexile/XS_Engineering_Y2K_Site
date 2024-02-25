@@ -6,7 +6,7 @@
   background: rgb(241, 53, 134);
   background: linear-gradient(
     90deg,
-    rgba(241, 53, 134, 1) 87%,
+    rgb(94, 218, 255) 87%,
     rgba(255, 255, 255, 1) 100%
   );
 }
