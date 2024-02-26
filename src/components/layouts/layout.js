@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Layout({ children }) {
   return (
@@ -27,8 +28,8 @@ export default function Layout({ children }) {
             className="bg-cover bg-center h-8 w-full flex  "
           >
             <div className="w-full h-full  flex items-center gap-x-4 justify-start text-gray-800 text-sm">
-              <a href="./">Home</a>
-              <a href="/about">About</a>
+              <Link href="/"> Home </Link>
+              <Link href="/about"> About </Link>
             </div>
           </div>
           <div className="h-3 w-full bg-gradient-to-t from-black to-gray-500 border border-b-1 border-t-0 border-green-500"></div>
