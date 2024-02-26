@@ -34,7 +34,7 @@ export default function Layout({ children }) {
           </div>
           <div className="h-3 w-full bg-gradient-to-t from-black to-gray-500 border border-b-1 border-t-0 border-green-500"></div>
           {/* Container looking thing */}
-          <div className="bg-white h-[35rem] flex">
+          <div className="bg-white h-[35rem] flex flex-col sm:flex-row">
             {/* Left side of screen div */}
             {children}
             {/* Right side screen div */}

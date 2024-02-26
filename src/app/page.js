@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <div
         style={{ backgroundImage: "url('web_assets/MBK1.jpg')" }}
-        className=" h-full bg-blue-400  w-8/12 flex flex-col items-center  justify-start"
+        className=" h-full bg-blue-400  w-full sm:w-8/12 flex flex-col items-center  justify-start"
       >
         <div className="w-52 h-FULL  mt-16 text-white  rounded-t-lg shadow-xl   flex items-center justify-start flex-col">
           <div className=" blue-gradient  text-white w-full border-b-2 rounded-t-lg  h-6 flex items-center justify-center text-sm">
@@ -65,13 +65,15 @@ export default function Home() {
       </div>
       {/* Right side screen div */}
       <div
-        className=" h-full bg-white w-full flex flex-col items-center justify-start"
+        className=" h-full bg-white w-full flex-y-4 flex flex-col items-center justify-start"
         style={{
           backgroundImage: "url('/web_assets/paper_background-0000.jpg')",
         }}
       >
-        <div className="w-8/12 h-52 rounded-md mt-24 bg-red-500"></div>
-        <div className="w-8/12 h-24 rounded-md mt-8 bg-red-500"></div>
+        <h1 className="mt-8 text-4xl">Welcome to my website</h1>
+        <h1 className=" ">
+          This place serves to look like a 2000's website, it uses Next.js .
+        </h1>
       </div>
     </Layout>
   );
